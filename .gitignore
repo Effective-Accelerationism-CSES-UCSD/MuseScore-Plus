@@ -1,5 +1,7 @@
 # Datasets
 output_midi/
+training_set_medium/
+training_set_tiny/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
