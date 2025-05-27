@@ -1,0 +1,44 @@
+# MacOS
+.DS_Store
+
+__pycache__/
+.venv/
+*_cache/
+.idea/
+*.log
+*.env
+
+# Docs
+_build/
+
+# Build
+/dist
+
+# Datasets
+/datasets/*
+!/datasets/*.py
+
+# Models
+/homr/segmentation/*
+!/homr/segmentation/*.py
+
+/homr/transformer/*
+!/homr/transformer/*.py
+
+# Byprodcuts of a training run
+/seg_unet.keras
+/logs
+/current_training
+
+# Testdata
+/*.jpeg
+/*.jpg
+/*.png
+/*.npy
+/*.musicxml
+/testdata
+
+# WSL
+*Zone.Identifier
+
+/*.txt
